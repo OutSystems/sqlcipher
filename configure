@@ -12049,11 +12049,11 @@ return HMAC_Init_ex ();
   return 0;
 }
 _ACEOF
-if ac_fn_c_try_link "$LINENO"; then :
+#if ac_fn_c_try_link "$LINENO"; then :
   ac_cv_lib_crypto_HMAC_Init_ex=yes
-else
-  ac_cv_lib_crypto_HMAC_Init_ex=no
-fi
+#else
+#  ac_cv_lib_crypto_HMAC_Init_ex=no
+#fi
 rm -f core conftest.err conftest.$ac_objext \
     conftest$ac_exeext conftest.$ac_ext
 LIBS=$ac_check_lib_save_LIBS
